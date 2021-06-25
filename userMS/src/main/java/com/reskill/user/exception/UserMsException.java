@@ -1,5 +1,10 @@
 package com.reskill.user.exception;
 
-public class UserMsException {
+@SuppressWarnings("serial")
+public class UserMsException extends Exception {
+	
+	public UserMsException(String message) {
+		super(message);
+	}
 
 }
