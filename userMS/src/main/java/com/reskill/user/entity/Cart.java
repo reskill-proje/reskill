@@ -1,5 +1,5 @@
 package com.reskill.user.entity;
 
-public class User {
+public class Cart {
 
 }
